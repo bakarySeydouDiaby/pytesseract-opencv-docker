@@ -1,0 +1,3 @@
+Gitestle sytème de gestion de version décentralisé open source qui facilite les activités GitHub sur votre ordinateur.
+Cetaide-mémoire permet un accès rapide aux instructions des commandes Git les plus utilisées.
+

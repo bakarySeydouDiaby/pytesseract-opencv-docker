@@ -1,0 +1,6 @@
+Optical Character Recognition (OCR)
+
+Optical Character Recognition (OCR) is a technique of reading or grabbing text from printed
+or scanned photos, handwritten images and convert them into a digital format that can be
+editable and searchable.
+
