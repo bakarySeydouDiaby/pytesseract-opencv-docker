@@ -1,15 +1,30 @@
-# tesseract-python
+# tesseract-python-opencv
 
-Nous allons cloner un repos github (https://github.com/ricktorzynski/ocr-tesseract-docker.git), et utiliser docker-compose pour faire tourner notre ocr
+installation opencv, pytesseract, tesseract-ocr et lancement container 
 
 
 ## quelques commandes docker :
 `docker compose up` pour lancer le container \
-`docker exec -it tesseract-python_app_1 bash` pour acceder au container et lancer notre script python \
+`docker exec -it tesseract-python-opencv_app_1tesseract-python_app_1 bash` pour acceder au container et lancer notre script python \
 `python 1_script.py` pour executer le script python et generer du texte à partir de l'image
 
-## quelques liens 
 
-[How To Extract Text From Images Using Tesseract OCR Engine and Python](https://towardsdatascience.com/how-to-extract-text-from-images-using-tesseract-ocr-engine-and-python-22934125fdd5)
+## quelques commandes git
 
-[How To Run a Python Script Using a Docker Container](https://towardsdatascience.com/how-to-run-a-python-script-using-a-docker-container-ea248e618e32)
+> creer le repos github d'abord
+
+revenir sur notre espace locale et ajouter le repos git : on change origin en opencv
+```
+    git init
+    git remote add opencv https://github.com/bakarySeydouDiaby/pytesseract-opencv-docker.git
+    git add .
+    git commit -m "message"
+    git push -u opencv master
+```
+maintenant, après chaque modif, on refait :
+ ```
+    git status
+    git add
+    git commit
+    git push
+```
