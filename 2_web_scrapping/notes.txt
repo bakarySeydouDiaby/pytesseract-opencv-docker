@@ -1,0 +1,5 @@
+source  : https://www.datacorner.fr/sentiment-analysis/
+
+
+pip install requests matplotlib scipy
+pip install  lxml ==> webscrapping
