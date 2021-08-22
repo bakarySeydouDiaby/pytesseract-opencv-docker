@@ -3,3 +3,22 @@ source  : https://www.datacorner.fr/sentiment-analysis/
 
 pip install requests matplotlib scipy
 pip install  lxml ==> webscrapping
+
+
+Manup :
+======
+source : https://www.datacorner.fr/webscrapython/
+
+L’idée est donc tout aussi simple, récupérer la liste des meilleurs jeux vidéos 
+(les 20 meilleurs par exemple première page) et d’écrire cette liste dans un fichier CSV.
+
+On récupérera bien sur à minima:
+
+    le nom du jeu vidéo
+    sa description
+    sa date de sortie
+    sa note de test
+    sa note des joueurs
+
+site de test : https://www.jeuxvideo.com/meilleurs/
+

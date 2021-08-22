@@ -1,0 +1,5 @@
+source : https://www.analyticsvidhya.com/blog/2021/06/optical-character-recognitionocr-with-tesseract-opencv-and-python/
+
+## converting text to speech using gTTS.
+a partir d'une image et des librairies gtts, pytesseact, on lit un fichier image contenant du texte,
+extraire le texte, puis le converti en fichier audio .mp3 lisible par VLC, media player ...
