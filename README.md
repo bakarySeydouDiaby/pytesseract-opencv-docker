@@ -28,3 +28,11 @@ maintenant, après chaque modif, on refait :
     git commit
     git push
 ```
+
+
+## Parti Python deep learning
+
+ajout de plusieurs dossiers :
+- 1_worcloud : pour tester des scripts python generant un wordcloud avec les librairies  : numpy, pandas, pytesseract, matplotlib, PIL, itertools, nltk, wordcloud, cv2, os
+- 2_web_scrapping : pour extraire des infos sur des pages web avec : pandas, requests, lxml
+- 3_text_audio : pour generer un fichier audio .mp3 à partir d'un fichier image contenant du texte : gtts, pytesseract, cv2
