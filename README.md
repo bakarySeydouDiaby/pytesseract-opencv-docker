@@ -1,6 +1,10 @@
 # tesseract-python-opencv
 
-installation opencv, pytesseract, tesseract-ocr et lancement container 
+installation opencv, pytesseract, tesseract-ocr et lancement container \
+
+** fichier de creation du container : **
+- Dockerfile : contient l'image pour creer le container avec : python, opencv, pytesseract
+- docker-compose.yml : creation du service ou container
 
 
 ## quelques commandes docker :
