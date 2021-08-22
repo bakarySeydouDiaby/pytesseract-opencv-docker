@@ -128,8 +128,6 @@ mask[mask == 1] = 255 # Si une valeur du tableau est “255”, alors aucun mot 
 
 wordcloud = WordCloud(background_color = 'white', stopwords = exclude_words, max_words = 50).generate(text)
 
-# save a image using extension
-wordcloud = wordcloud.save("wordcloud_genere.png")
-# plt.imshow(wordcloud)
-# plt.axis("off")
-# plt.show()
+plt.imshow(wordcloud)
+plt.axis("off")
+plt.show()
